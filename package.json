@@ -1,0 +1,26 @@
+{
+  "name": "backendexample",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "check": "tsc --project jsconfig.json"
+  },
+  "author": "kulkaGM",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.0"
+  },
+  "imports": {
+    "#root/*": "./*.js",
+    "#types": "./lib/types.js",
+    "#routes/*": "./api/routes/*.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.2"
+  }
+}
